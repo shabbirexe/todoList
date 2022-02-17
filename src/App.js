@@ -91,7 +91,7 @@ function App() {
         return e!==value;
       }))
       if(thomas.length>index){
-        setThomas([...thomas.slice(0,index),value,...thomas.slice(index,winnie.length) ])
+        setThomas([...thomas.slice(0,index),value,...thomas.slice(index,thomas.length) ])
       }else{
         setThomas(prevValue=>[...prevValue,value])
       }
