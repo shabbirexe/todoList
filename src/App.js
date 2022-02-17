@@ -10,6 +10,10 @@ function App() {
   }
   const inputValue=(val)=>{
    var value=prop();
+    if(value===""){
+     alert("Please enter some value")
+      return;
+    }
    if(val==="Winnie"){
    setWinnie(prevValue=>[...prevValue,value])
   }else if(val === "Brad"){
