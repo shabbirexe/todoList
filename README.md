@@ -1,5 +1,5 @@
 # todoList
-Find the hosted website at https://todolist-heroku12.herokuapp.com/
+Find the hosted web app at https://todolist-heroku12.herokuapp.com/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
