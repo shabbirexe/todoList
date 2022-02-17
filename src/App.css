@@ -1,3 +1,31 @@
+div{
+  width:auto
+}
+.btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  /* font-weight:bold; */
+  font-size: 1rem;
+}
+.btn:hover{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  color:rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  /* font-weight:bold; */
+  font-size: 1rem;
+}
+body{
+  background-color: rgb(188, 199, 209);
+}
 .App {
   text-align: center;
 }
@@ -35,4 +63,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* app.js */
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+ 
+}
+.flex-child{
+  background-color: white;
+  margin: 1% 1%;
+  height: fit-content;
+   flex:25%;
 }
