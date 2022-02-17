@@ -10,9 +10,12 @@ function App() {
   }
   const inputValue=(val)=>{
    var value=prop();
-    console.log(value)
+    
     if(value===""){
      alert("Please enter some value")
+      return;
+    }if(value===null){
+      console.log("Add Data cancelled")
       return;
     }
    if(val==="Winnie"){
